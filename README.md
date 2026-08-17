@@ -45,8 +45,8 @@ npm install
 yarn install
 ```
 
-### 3. Configure Firebase
-Update the `firebaseConfig.js` file with your Firebase project credentials:
+### 3. Connect Firebase
+Create the `firebaseConfig.js` file with your Firebase project credentials:
 ```javascript
 export const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
