@@ -182,14 +182,10 @@ This project is licensed under the 0BSD License - see the LICENSE file for detai
 
 ## 🙋 Support
 
-For support, email support@taskbound.app or open an issue on GitHub.
+For support, email ryanvalencia709@gmail.com or open an issue on GitHub.
 
 ## 🔗 Links
 
 - [Expo Documentation](https://docs.expo.dev)
 - [React Native Docs](https://reactnative.dev)
 - [Firebase Docs](https://firebase.google.com/docs)
-
----
-
-Made with ❤️ by the Taskbound Team
