@@ -2,26 +2,26 @@
 
 <p align="center">
   <strong>Plan it, schedule it, focus on it.</strong><br>
-  A cross-platform task manager with a calendar, dashboard and built-in focus timer.
+  A mobile task manager with a calendar, dashboard and built-in focus timer.
 </p>
 
 <p align="center">
   <img alt="React Native 0.81" src="https://img.shields.io/badge/React%20Native-0.81-61dafb?logo=react&amp;logoColor=white">
   <img alt="Expo 54" src="https://img.shields.io/badge/Expo-54-000020?logo=expo&amp;logoColor=white">
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-Auth%20%2B%20Firestore-ffca28?logo=firebase&amp;logoColor=black">
-  <img alt="Platforms" src="https://img.shields.io/badge/platforms-iOS%20%7C%20Android%20%7C%20Web-informational">
+  <img alt="Platforms" src="https://img.shields.io/badge/platforms-iOS%20%7C%20Android-informational">
   <img alt="0BSD licence" src="https://img.shields.io/badge/license-0BSD-blue">
 </p>
 
 <p align="center">
-  <a href="#video-preview">Preview</a> · <a href="#screenshots">Screenshots</a> · <a href="#quick-start">Quick start</a> · <a href="#features">Features</a> · <a href="#project-structure">Structure</a> · <a href="#configuration">Configuration</a> · <a href="#troubleshooting">Troubleshooting</a>
+  <a href="#video-preview">Preview</a> · <a href="#screenshots">Screenshots</a> · <a href="#try-it-in-your-browser">Try it</a> · <a href="#quick-start">Quick start</a> · <a href="#features">Features</a> · <a href="#project-structure">Structure</a> · <a href="#configuration">Configuration</a> · <a href="#troubleshooting">Troubleshooting</a>
 </p>
 
 <p align="center">
   <img src="preview/screenshots/hero.png" alt="Taskbound screens: welcome, dashboard, tasks, calendar and focus timer" width="100%">
 </p>
 
-Taskbound helps you organize tasks, track deadlines and protect your attention. Create tasks with deadlines and repeat rules, see them on a calendar, check your progress on the dashboard, and start a Pomodoro-style timer when it is time to work. It runs on iOS, Android and the web from one React Native codebase, with accounts and data stored in Firebase.
+Taskbound helps you organize tasks, track deadlines and protect your attention. Create tasks with deadlines and repeat rules, see them on a calendar, check your progress on the dashboard, and start a Pomodoro-style timer when it is time to work. It is a mobile app for iOS and Android, built with React Native and Expo, with accounts and data stored in Firebase.
 
 ## Video preview
 
@@ -63,6 +63,16 @@ Choose green, blue, pink or dark from **Profile → Appearance**.
   <img src="preview/screenshots/dark-mode.png" alt="Dark mode: dashboard, tasks and calendar" width="65%">
 </p>
 
+## Try it in your browser
+
+Taskbound is built for mobile, but you can try it in your browser with [Expo Snack](https://snack.expo.dev), with nothing to install.
+
+1. Open **[Taskbound on Expo Snack](https://snack.expo.dev/@your-username/taskbound)**, or go to [snack.expo.dev](https://snack.expo.dev) and choose **Import git repository**, then paste this repo's URL.
+2. In the Snack file list, add a `firebaseConfig.js` with your Firebase credentials (see [Firebase setup](#firebase-setup)).
+3. Pick the **Web** tab in the preview pane for a quick look in your browser. For the real mobile experience, scan the QR code with the [Expo Go](https://expo.dev/go) app on your phone.
+
+> **Note:** Snack runs in a sandbox, so some native features may behave differently than in a full build. For the complete experience, run the app locally (see [Quick start](#quick-start)).
+
 ## Quick start
 
 You need Node.js 14 or later and npm or yarn.
@@ -79,7 +89,6 @@ Create `firebaseConfig.js` in the project root with your Firebase project creden
 npm start          # Expo dev server
 npm run ios        # iOS simulator
 npm run android    # Android emulator or device
-npm run web        # Browser
 ```
 
 ## Features
@@ -92,7 +101,7 @@ npm run web        # Browser
 - **Accounts:** secure registration and login with Firebase Authentication.
 - **Profiles:** personal settings and a profile screen.
 - **Themes:** dark and light modes.
-- **Cross-platform:** iOS, Android and web from a single codebase.
+- **Mobile-first:** built for iOS and Android with React Native and Expo, with a browser preview on [Expo Snack](#try-it-in-your-browser).
 
 ## Usage
 
