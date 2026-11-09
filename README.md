@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="preview/screenshots/hero.png" alt="Taskbound screens: welcome, dashboard, tasks, calendar and focus timer" width="100%">
+  <img src="screenshots/screenshots/hero.png" alt="Taskbound screens: welcome, dashboard, tasks, calendar and focus timer" width="100%">
 </p>
 
 Taskbound helps you organize tasks, track deadlines and protect your attention. Create tasks with deadlines and repeat rules, see them on a calendar, check your progress on the dashboard, and start a Pomodoro-style timer when it is time to work. It is a mobile app for iOS and Android, built with React Native and Expo, with accounts and data stored in Firebase.
@@ -26,28 +26,28 @@ Taskbound helps you organize tasks, track deadlines and protect your attention. 
 ## Video preview
 
 <p align="center">
-  <a href="preview/taskbound-promo.mp4">
-    <img src="preview/taskbound-promo.gif" alt="Taskbound promo video (click for the full MP4 with sound)" width="640">
+  <a href="videos/taskbound-promo.mp4">
+    <img src="gifs/taskbound-promo.gif" alt="Taskbound promo video (click for the full MP4 with sound)" width="640">
   </a>
   <br>
-  <sub><a href="preview/taskbound-promo.mp4">Watch the 35-second promo (MP4, with music)</a> ·
-  <a href="preview/taskbound-preview.mp4">App walkthrough (MP4)</a></sub>
+  <sub><a href="videos/taskbound-promo.mp4">Watch the 35-second promo (MP4, with music)</a> ·
+  <a href="videos/taskbound-preview.mp4">App walkthrough (MP4)</a></sub>
 </p>
 
 ## Screenshots
 
 <table align="center">
   <tr>
-    <td align="center"><img src="preview/screenshots/welcome.png" width="200" alt="Welcome screen"><br><sub><b>Welcome</b></sub></td>
-    <td align="center"><img src="preview/screenshots/dashboard.png" width="200" alt="Dashboard"><br><sub><b>Dashboard</b></sub></td>
-    <td align="center"><img src="preview/screenshots/tasks.png" width="200" alt="Task list"><br><sub><b>Tasks</b></sub></td>
-    <td align="center"><img src="preview/screenshots/task-form.png" width="200" alt="Create a task"><br><sub><b>New task</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/welcome.png" width="200" alt="Welcome screen"><br><sub><b>Welcome</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/dashboard.png" width="200" alt="Dashboard"><br><sub><b>Dashboard</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/tasks.png" width="200" alt="Task list"><br><sub><b>Tasks</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/task-form.png" width="200" alt="Create a task"><br><sub><b>New task</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="preview/screenshots/calendar.png" width="200" alt="Calendar"><br><sub><b>Calendar</b></sub></td>
-    <td align="center"><img src="preview/screenshots/focus-timer.png" width="200" alt="Focus timer"><br><sub><b>Focus timer</b></sub></td>
-    <td align="center"><img src="preview/screenshots/profile.png" width="200" alt="Profile"><br><sub><b>Profile</b></sub></td>
-    <td align="center"><img src="preview/screenshots/login.png" width="200" alt="Sign in"><br><sub><b>Sign in</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/calendar.png" width="200" alt="Calendar"><br><sub><b>Calendar</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/focus-timer.png" width="200" alt="Focus timer"><br><sub><b>Focus timer</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/profile.png" width="200" alt="Profile"><br><sub><b>Profile</b></sub></td>
+    <td align="center"><img src="screenshots/screenshots/login.png" width="200" alt="Sign in"><br><sub><b>Sign in</b></sub></td>
   </tr>
 </table>
 
@@ -56,11 +56,11 @@ Taskbound helps you organize tasks, track deadlines and protect your attention. 
 Choose green, blue, pink or dark from **Profile → Appearance**.
 
 <p align="center">
-  <img src="preview/screenshots/themes.png" alt="Green, blue, pink and dark themes" width="85%">
+  <img src="screenshots/screenshots/themes.png" alt="Green, blue, pink and dark themes" width="85%">
 </p>
 
 <p align="center">
-  <img src="preview/screenshots/dark-mode.png" alt="Dark mode: dashboard, tasks and calendar" width="65%">
+  <img src="screenshots/screenshots/dark-mode.png" alt="Dark mode: dashboard, tasks and calendar" width="65%">
 </p>
 
 ## Try it in your browser
@@ -155,7 +155,9 @@ taskbound/
 ├── Profile.js            # User profile
 ├── components/           # Reusable components
 ├── assets/               # Icons and alarm sound
-└── preview/              # Screenshots and demo video
+├── gifs/                 # README preview GIFs
+├── screenshots/          # README screenshots
+└── videos/               # Promo and walkthrough videos
 ```
 
 ## Tech stack
